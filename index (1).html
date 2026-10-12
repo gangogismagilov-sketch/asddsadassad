@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeFlow — работайте над проектами вместе</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page" id="home">
+    <div class="container">
+      <header>
+        <a class="brand" href="#home" aria-label="CodeFlow — главная">
+          <span class="logo">&lt;/&gt;</span>
+          <span>Code<span class="brand-accent">Flow</span></span>
+        </a>
+        <nav aria-label="Основная навигация">
+          <a href="#features">Возможности</a>
+          <a href="#how">Как это работает</a>
+          <a class="nav-cta" href="#start">Начать работу ↗</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="dot"></span> ПРОСТРАНСТВО ДЛЯ КОМАНДНОЙ РАБОТЫ</div>
+            <h1>Создавайте код.<br>Двигайтесь <em>вместе.</em></h1>
+            <p class="lead">CodeFlow объединяет команду разработчиков в одном пространстве. Обсуждайте идеи, делитесь кодом и превращайте сложные задачи в готовые проекты — вместе и без лишнего хаоса.</p>
+            <div class="actions" id="start">
+              <a class="btn primary" href="#features">Начать бесплатно <span>→</span></a>
+              <a class="btn secondary" href="#how">Узнать, как работает</a>
+            </div>
+            <p class="note">Без сложной настройки · Для команд любого размера</p>
+          </div>
+
+          <div class="visual" aria-label="Иллюстрация совместной работы разработчиков">
+            <div class="glow"></div>
+            <div class="workspace">
+              <div class="window-top">
+                <div class="lights"><i></i><i></i><i></i></div>
+                <div class="window-name">codeflow / team-project</div>
+                <div class="window-name">•••</div>
+              </div>
+              <div class="workspace-body">
+                <aside class="sidebar">
+                  <div class="side-label">Workspace</div>
+                  <div class="side-item active">⌘ Проект</div>
+                  <div class="side-item">▤ Задачи</div>
+                  <div class="side-item">⌁ Ветки</div>
+                  <div class="side-item">◉ Команда</div>
+                  <div class="side-label side-label-files">Файлы</div>
+                  <div class="side-item">◇ app.js</div>
+                  <div class="side-item">◇ style.css</div>
+                  <div class="side-item">◇ index.html</div>
+                </aside>
+                <div class="editor">
+                  <div class="editor-head"><span>⌁ app.js</span><span class="live">● 3 онлайн</span></div>
+                  <div class="code">
+                    <div><span class="ln">1</span><span class="purple">const</span> project = {</div>
+                    <div><span class="ln">2</span>&nbsp;&nbsp;name: <span class="green">'New project'</span>,</div>
+                    <div><span class="ln">3</span>&nbsp;&nbsp;team: [<span class="orange">'you'</span>, <span class="orange">'devs'</span>],</div>
+                    <div><span class="ln">4</span>&nbsp;&nbsp;status: <span class="green">'building'</span>,</div>
+                    <div><span class="ln">5</span>};</div>
+                    <div><span class="ln">6</span></div>
+                    <div><span class="ln">7</span><span class="purple">function</span> <span class="blue">createTogether</span>() {</div>
+                    <div><span class="ln">8</span>&nbsp;&nbsp;<span class="purple">return</span> ideas.<span class="blue">build</span>();</div>
+                    <div><span class="ln">9</span>}</div>
+                  </div>
+                  <div class="collab">
+                    <div class="avatars"><span class="avatar">A</span><span class="avatar">M</span><span class="avatar">D</span></div>
+                    <div class="collab-text"><strong>Команда на связи</strong><br>Изменения синхронизированы</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cursor-tag">Alex · редактирует</div>
+            <div class="float-card"><span class="check">✓</span><span><strong>Задача выполнена</strong><small>Обновлено только что</small></span></div>
+          </div>
+        </section>
+
+        <section class="features" id="features">
+          <h2 class="section-title">Всё для сильной команды</h2>
+          <p class="section-sub">Инструменты, которые помогают сосредоточиться на главном — создании качественного продукта.</p>
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-icon">⌘</div>
+              <h3>Общий рабочий процесс</h3>
+              <p>Собирайте файлы, задачи и обсуждения проекта в одном понятном пространстве.</p>
+            </article>
+            <article class="feature" id="how">
+              <div class="feature-icon">↗</div>
+              <h3>Синхронная работа</h3>
+              <p>Делитесь идеями, быстро согласовывайте изменения и следите за ходом работы команды.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon">◈</div>
+              <h3>Понятный прогресс</h3>
+              <p>Отмечайте готовые задачи, распределяйте ответственность и двигайтесь к результату вместе.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-inner">
+          <a class="brand footer-brand" href="#home"><span class="logo">&lt;/&gt;</span><span>Code<span class="brand-accent">Flow</span></span></a>
+          <span>Меньше хаоса — больше кода. © 2026 CodeFlow</span>
+          <a class="text-link" href="#home">Наверх ↑</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
